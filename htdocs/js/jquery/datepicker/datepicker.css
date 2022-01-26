@@ -80,8 +80,7 @@
   text-decoration: none;
 }
 .ui-datepicker .ui-datepicker-current-day {
-  background-color: #064785;
-}
+  background-color: #232D4B;}
 .ui-datepicker .ui-datepicker-current-day a {
   color: #fff
 }
@@ -92,5 +91,4 @@
 
  /*override color from 'table th' in custom css*/
 .ui-datepicker .ui-datepicker-calendar th span {
-  color: #064785;
-}
+  color: #232D4B;}

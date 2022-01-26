@@ -1,8 +1,7 @@
 #log_box {
     width: 600px;
     height: 200px;
-    border: 2px solid #064785;
-    overflow: auto;
+    border: 2px solid #232D4B;    overflow: auto;
     padding: 5px;
 }
 

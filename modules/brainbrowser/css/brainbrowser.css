@@ -80,8 +80,7 @@ body {
 
 .filename {
     font-weight: 500;
-    color: #064785;
-    font-size: 16px;
+    color: #232D4B;    font-size: 16px;
     margin: 0.35em 0;
     padding-right: 0;
     text-overflow: ellipsis;
@@ -126,8 +125,7 @@ body {
 
 .filename-overlay {
     font-weight: bold;
-    color: #064785;
-    font-size: 14px;
+    color: #232D4B;    font-size: 14px;
     display: block;
     margin: auto;
 }
@@ -156,8 +154,7 @@ body {
 
 .loading-message {
     display: block;
-    color: #064785;
-    font-size: 40px;
+    color: #232D4B;    font-size: 40px;
     font-weight: bold;
     text-align: center;
     margin: auto;
@@ -166,8 +163,7 @@ body {
 
 .brainbrowser-wrapper .global-controls .control {
     color: #fff;
-    background-color: #064785;
-    border: 1px solid #053a6d;
+    background-color: #232D4B;    border: 1px solid #053a6d;
     font-weight: 500;
     height: 35px;
     padding: 5px 10px;

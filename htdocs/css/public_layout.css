@@ -45,8 +45,7 @@ h1, h2, h3, h4 {
 
 .header {
     height: 100px;
-    background-color: #064785;
-    padding: 5px 0;
+    background-color: #232D4B;    padding: 5px 0;
 }
 
 .flex-wrapper {
@@ -137,8 +136,7 @@ h1, h2, h3, h4 {
 .footer {
     font-size: 12px;
     text-align: center;
-    background-color: #064785;
-    color: #f8f8f8;
+    background-color: #232D4B;    color: #f8f8f8;
     height: 60px;
     padding: 15px;
 }

@@ -20,8 +20,7 @@
     padding: 0;
     list-style-type: none;
     z-index: 10;
-    background: #064785;
-
+    background: #232D4B;
 }
 
 /*Top level list items*/
@@ -29,8 +28,7 @@
     position: relative;
     display: inline;
     float: left;
-    background: #064785;
-    z-index: 10;
+    background: #232D4B;    z-index: 10;
     font-size: 10px;
 }
 

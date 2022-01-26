@@ -88,8 +88,7 @@ h1, h2, h3, h4 {
     }
 h1 {
 	margin-top: 5px;
-	color: #064785;
-	font-size: 110%;
+	color: #232D4B;	font-size: 110%;
     }
 h2 {
 	margin-top: 15px;
@@ -98,8 +97,7 @@ h2 {
     }
 h3 {
 	margin-top: 35px;
-	color: #064785;
-	font-size: 90%;
+	color: #232D4B;	font-size: 90%;
     }
 
 .site{
@@ -111,11 +109,9 @@ th {
     }
 
 th.banner {
-background: #064785;
-color: #fff;
+background: #232D4B;color: #fff;
      border-style: solid;
-     border-color: #064785;
-     border-width: 1px;
+     border-color: #232D4B;     border-width: 1px;
      border-radius: 4px;
      -webkit-border-radius: 4px;
     }
@@ -147,8 +143,7 @@ table.list th, table.tbl th, table.std th  {
     }
 table.list th, table.tbl th, table.std th {
 /*    border-color: #D1D1CD;*/
-	background-color: #064785;
-	color: #fff;
+	background-color: #232D4B;	color: #fff;
     }
 table.exclusion th {
     	border: 1px solid #000;
@@ -313,8 +308,7 @@ table.fancytable caption, table.listColorCoded caption {
    font-size:13.5px;
    font-family:Verdana,sans-serif;
    color:white;
-   background-color:#064785;
-   margin-top: 3px;
+   background-color:#232D4B;   margin-top: 3px;
    border-style:ridge;
    border-color:#FFFFFF;
    border-width:1px;
@@ -408,8 +402,7 @@ table.data {
 .data tr th {
     background: #E4EBF2;
     /* color: #CCC; */
-    color: #064785;
-    padding: 3px;
+    color: #232D4B;    padding: 3px;
 }
 .data tr td {
     background: white;
@@ -426,11 +419,9 @@ table.data {
     margin-top: 5px;
 }
 .header {
-background:#064785;
-}
+background:#232D4B;}
 .loginheader {
-background: #064785;
-color: #fff;
+background: #232D4B;color: #fff;
 padding-top: 3px;
 font-size: 130%;
 text-align: center;
@@ -685,13 +676,11 @@ tr.directentry {
 .help-content #help-wrapper {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 14px;
-    color: #064785;
-    padding: 9.5px;
+    color: #232D4B;    padding: 9.5px;
 }
 #help-seperator {
    margin-top: 50px;
-    background: #064785;
-}
+    background: #232D4B;}
 #helpclose {
    float: right;
    margin: 10px;
@@ -702,13 +691,11 @@ tr.directentry {
    margin: 10px;
 }
 .help-content h3 {
-    color: #064785;
-}
+    color: #232D4B;}
 
 .help-content a {
    text-decoration: underline;
-   color: #064785;
-
+   color: #232D4B;
 }
 
 .help-content a:hover {

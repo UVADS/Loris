@@ -80,14 +80,12 @@ svg {
 }
 
 .electrode:hover circle {
-  stroke: #064785;
-  cursor: pointer;
+  stroke: #232D4B;  cursor: pointer;
   fill: #E4EBF2
 }
 
 .electrode:hover text {
-  fill: #064785;
-  cursor: pointer;
+  fill: #232D4B;  cursor: pointer;
 }
 
 #eegSessionView .table-scroll {

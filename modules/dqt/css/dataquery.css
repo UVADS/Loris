@@ -78,12 +78,10 @@ h4.modal-title {
 
 .switch {
     background: white;
-    border-color: #064785;
-}
+    border-color: #232D4B;}
 .btn-primary-filter {
     color: #fff;
-    background: #064785;
-}
+    background: #232D4B;}
 
 /*
  *  CSS for managed saved query filters
@@ -111,8 +109,7 @@ h4.modal-title {
 .spinner > div {
     width: 18px;
     height: 18px;
-    background-color: #064785;
-
+    background-color: #232D4B;
     border-radius: 100%;
     display: inline-block;
     -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
@@ -150,8 +147,7 @@ h4.modal-title {
 }
 
 .loading-header {
-    color: #064785;
-}
+    color: #232D4B;}
 
 .list-group-item.active, .list-group-item.active:hover {
   background-color: #4c8ad5;

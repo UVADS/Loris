@@ -100,16 +100,13 @@
 }
 
 .sidebar-div {
-    color: #064785;
-}
+    color: #232D4B;}
 
 .sidebar-div h3 {
-    color: #064785;
-}
+    color: #232D4B;}
 
 .sidebar-div a {
-    color: #064785;
-}
+    color: #232D4B;}
 
 @media (max-width: 884px) {
 
@@ -119,8 +116,7 @@
 
     #sidebar-wrapper {
         left: 0;
-        color: #064785;
-    }
+        color: #232D4B;    }
 
     .wrapper.active {
         position: relative;
