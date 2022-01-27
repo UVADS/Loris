@@ -3,6 +3,14 @@ services:
     image: mysql:5.7
     env_file:
       - mysql.env
+    restart:
+      always
+  dqt:
+    image: couchdb:latest
+    env_file:
+      - couchdb.env
+    restart:
+      always
   web:
     build:
       context: .
@@ -11,3 +19,5 @@ services:
       - "80:80"
     depends_on:
       - db
+    restart:
+      always
