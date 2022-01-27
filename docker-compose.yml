@@ -7,6 +7,8 @@ services:
       always
   dqt:
     image: couchdb:latest
+    ports:
+      - "5984:5984"
     env_file:
       - couchdb.env
     restart:
