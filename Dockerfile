@@ -36,3 +36,7 @@ RUN a2dissite 000-default; \
     a2ensite loris.conf; \
     a2enmod rewrite; \
     a2enmod headers
+
+WORKDIR /var/www/loris/
+RUN sudo make
+RUN composer install
