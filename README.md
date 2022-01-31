@@ -48,7 +48,7 @@ Installing some dependencies may require `sudo` privileges. Other dependencies a
 
     > :memo: **Note:** If you make any changes to the *Dockerfile* or *docker-compose.yaml*, you will need to rebuild the images using `docker compose build` before running `docker compose up`
 
-3. Open your browser and go to: `<loris-url>/installdb.php`. This web page will prompt you for your mysql connection information. Follow the instructions to finalize LORIS installation, then restart Apache in the *loris-web-1* Docker container (name could vary).
+3. Open your browser and go to: `<loris-url>/installdb.php`. This web page will prompt you for your mysql connection information. Follow the instructions to finalize LORIS installation, then restart Apache in the *loris-web-1* Docker container (name could vary) using `sudo service apache2 reload`.
 
     > :memo: **Note:** `<loris-url>` is most likely `localhost`
 
@@ -57,18 +57,20 @@ Installing some dependencies may require `sudo` privileges. Other dependencies a
 ## Community
 
 ### Get in touch
-For questions and troubleshooting guidance beyond what is covered in our documentation, please subscribe to the [LORIS Developers mailing list](http://www.bic.mni.mcgill.ca/mailman/listinfo/loris-dev) and email us there. 
+
+For questions and troubleshooting guidance beyond what is covered in our documentation, please subscribe to the [LORIS Developers mailing list](http://www.bic.mni.mcgill.ca/mailman/listinfo/loris-dev) and email us there.
 
 ### Support and GitHub Issues
+
 For troubleshooting specific installation issues or errors, please see the [Installation troubleshooting guide](docs/wiki/00_SERVER_INSTALL_AND_CONFIGURATION/01_LORIS_Install/Troubleshooting.md), and then contact us via the [LORIS Developers mailing list](http://www.bic.mni.mcgill.ca/mailman/listinfo/loris-dev).
-For bug reporting and new feature requests, please search and report via our GitHub Issues. 
+For bug reporting and new feature requests, please search and report via our GitHub Issues.
 
 Please include details such as the version of LORIS you're using as well as information
 such as the OS you're using, your PHP and Apache versions, etc.
 
 ## Contributing
 
-We are very happy to get code contributions and features from the global LORIS community. 
+We are very happy to get code contributions and features from the global LORIS community.
 
 If you would like to contribute to LORIS development, please consult our [Contributing Guide](./CONTRIBUTING.md).
 
