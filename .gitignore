@@ -36,3 +36,4 @@ package-lock.json
 .eslintcache
 mysql.env
 couchdb.env
+.env
