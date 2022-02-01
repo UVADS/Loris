@@ -24,27 +24,23 @@ Installing some dependencies may require `sudo` privileges. Other dependencies a
 
 ### Install Steps
 
-1. Create environment files for the MySQL (*mysql.env*) and CouchDB (*couchdb.env*) containers in the project repo
+1. Create environment file in the project repo to configure MySQL and CouchDB containers
 
-    mysql.env example
+    .env example
 
     ```env
-    MYSQL_DATABASE: $loris_db_name
-    MYSQL_ROOT_PASSWORD: $db_root_password
+    MYSQL_DATABASE_NAME=$loris_db_name
+    MYSQL_ROOT_PASSWORD=$db_root_password
+
+    COUCHDB_USER=$dqt_user
+    COUCHDB_PASSWORD=$couch_root_password
     ```
 
     *$loris_db_name ⇾ "loris" or one-word project name*
 
-    couchdb.env example
+    > :warning: **Warning:** Keep these passwords secret! Do not check the *.env* file into your repo!
 
-    ```env
-    COUCHDB_USER: $dqt_user
-    COUCHDB_PASSWORD: $couch_root_password
-    ```
-
-    > :warning: **Warning:** Keep these passwords secret! Do not check the *.env* files into your repo!
-
-2. Run `docker compose up -d` in the root folder of the repository
+2. Run `docker compose  --env-file .env up -d` in the root folder of the repository
 
     > :memo: **Note:** If you make any changes to the *Dockerfile* or *docker-compose.yaml*, you will need to rebuild the images using `docker compose build` before running `docker compose up`
 
