@@ -51,6 +51,10 @@ Installing some dependencies may require `sudo` privileges. Other dependencies a
 3. Open your browser and go to: `<loris-url>/installdb.php`. This web page will prompt you for your mysql connection information. Follow the instructions to finalize LORIS installation, then restart Apache in the *loris-web-1* Docker container (name could vary) using `sudo service apache2 reload`.
 
     > :memo: **Note:** `<loris-url>` is most likely `localhost`
+    
+    > :memo: **Note:** Use `docker network inspect loris_default` to find the IP Address for the MySQL database and use this for the `Server Hostname`
+    
+    > :memo: **Note:** Check the box for `Use existing database` and provide the database name from your *mysql.env* file
 
 4. Follow the [Setup Guide in the LORIS Wiki](https://github.com/aces/Loris/wiki/Setup) to complete your post-installation setup and configuration, and for more documentation.
 
