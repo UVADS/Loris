@@ -1,6 +1,8 @@
 services:
   db:
     image: mysql:5.7
+    volumes:
+      - data-volume:/var/lib/db
     env_file:
       - mysql.env
     restart:
@@ -21,5 +23,10 @@ services:
       - "80:80"
     depends_on:
       - db
+    volumes:
+      - data-volume:/var/lib/loris
     restart:
       always
+
+volumes:
+  data-volume:
