@@ -42,7 +42,7 @@ Installing some dependencies may require `sudo` privileges. Other dependencies a
 
 2. Run `docker compose build` in the root Loris folder to build your Docker images     
 
-3. Run `docker compose  --env-file .env up -d` in the root folder of the repository to spin up the service
+3. Run `docker compose  --env-file .env up -d` in the root folder of the repository to start the service
 
     > :memo: **Note:** If you make any changes to the *Dockerfile* or *docker-compose.yaml*, you will need to rebuild the images using `docker compose build` before running `docker compose up`
 
