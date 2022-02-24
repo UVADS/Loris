@@ -5,7 +5,7 @@ services:
       - MYSQL_DATABASE=${MYSQL_DATABASE_NAME}
       - MYSQL_ROOT_PASSWORD=${MYSQL_ROOT_PASSWORD}
     volumes:
-      - data-volume:/var/lib/db
+      - mysql-data:/var/lib/mysql
     restart:
       always
   dqt:
@@ -28,9 +28,11 @@ services:
     depends_on:
       - db
     volumes:
-      - data-volume:/var/lib/loris
+      - loris-data:/var/www/loris
+      - loris-mri:/opt/loris/data/bin/mri
     restart:
       always
 
 volumes:
-  data-volume:
+  mysql-data:
+  loris-data:
