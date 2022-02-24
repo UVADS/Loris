@@ -28,12 +28,14 @@ services:
     depends_on:
       - db
     volumes:
-      - loris-data:/var/www/loris
-      - loris-mri:/opt/loris/data/bin/mri
+      - loris-site:/var/www/loris
+      - loris-opt:/opt/loris/
+      - loris-data:/data/loris/
     restart:
       always
 
 volumes:
   mysql-data:
+  loris-site:
+  loris-opt:
   loris-data:
-  loris-mri:
