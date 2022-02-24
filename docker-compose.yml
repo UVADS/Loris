@@ -36,3 +36,4 @@ services:
 volumes:
   mysql-data:
   loris-data:
+  loris-mri:
